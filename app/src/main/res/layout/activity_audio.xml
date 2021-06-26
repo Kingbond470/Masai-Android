@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".AudioActivity">
+
+    <Button
+        android:id="@+id/tk"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tokyo Ghoul"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/aot"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Attack On Titan"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/naruto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Naruto"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/ft"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Fairy Tail"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/dn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Death Note"
+        android:textSize="20sp" />
+
+
+
+</LinearLayout>
