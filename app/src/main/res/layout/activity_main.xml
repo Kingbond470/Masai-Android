@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#10C522"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/tvMasai"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Masai School"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:layout_gravity="center"
+         />
+    <TextView
+        android:id="@+id/tvHello"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hello World"
+        android:layout_gravity="end"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:textColor="#CC3D3D"
+        />
+
+    <TextView
+        android:id="@+id/tvAndroid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Android"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:textColor="#CC3D3D"
+         />
+</LinearLayout>

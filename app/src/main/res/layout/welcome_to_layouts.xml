@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#2F2F2F"
+    >
+
+    <TextView
+        android:id="@+id/tvAnd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hello AND 03"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:textColor="#FFFFFF"
+        android:layout_marginTop="30dp"
+        android:layout_centerHorizontal="true"
+        />
+    <TextView
+        android:id="@+id/tvLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Welcome to Layouts"
+        android:layout_below="@+id/tvAnd"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:textColor="#FFFFFF"
+        />
+    <View
+        android:id="@+id/viewCircle"
+        android:layout_width="80dp"
+        android:layout_height="70dp"
+        android:layout_below="@+id/tvLayout"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/blue_circle"
+        />
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Name : Lloyd Dcosta"
+        android:layout_centerVertical="true"
+        android:textColor="#FF0000"
+        android:gravity="center"
+        android:textSize="30sp"
+        android:layout_marginLeft="10dp"
+        android:drawableRight="@drawable/name_vector"
+        android:drawablePadding="10dp"/>
+    <TextView
+        android:id="@+id/age"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Age : 50"
+        android:textSize="30sp"
+        android:layout_below="@+id/name"
+        android:layout_marginLeft="10dp"
+        android:textColor="#FF0000"
+        />
+    <View
+        android:id="@+id/viewThree"
+        android:layout_width="140dp"
+        android:layout_height="12dp"
+        android:layout_above="@+id/btnNext"
+        android:background="#C4C4C4"
+        android:layout_marginBottom="20dp"
+        android:layout_marginEnd="60dp"
+        android:layout_marginRight="60dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true" />
+
+    <View
+        android:id="@+id/viewTwo"
+        android:layout_width="160dp"
+        android:layout_height="20dp"
+        android:layout_above="@+id/viewThree"
+        android:background="#C4C4C4"
+        android:layout_marginBottom="20dp"
+        android:layout_marginEnd="40dp"
+        android:layout_marginRight="40dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true" />
+
+    <View
+        android:id="@+id/ViewOne"
+        android:layout_width="180dp"
+        android:layout_height="30dp"
+        android:layout_above="@+id/viewTwo"
+        android:background="#C4C4C4"
+        android:layout_marginBottom="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true" />
+
+    <Button
+        android:id="@+id/btnNext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Next"
+        android:layout_alignParentBottom="true"
+        android:textSize="30sp"
+        android:background="#00FF00"
+        android:textColor="#000000"
+        android:textAllCaps="false"
+        />
+</RelativeLayout>
