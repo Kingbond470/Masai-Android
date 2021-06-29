@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/pendingActivation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Pending Activation"
+        android:background="#C4C4C4"
+        android:drawableLeft="@drawable/back_vector"
+        android:textSize="20dp"
+        android:padding="20sp"
+        android:drawablePadding="30dp"
+        android:textColor="@color/black"
+        />
+    <TextView
+        android:id="@+id/date2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="2 September , 2020"
+        android:textColor="@color/black"
+        android:textSize="17dp"
+        android:paddingTop="35dp"
+        android:layout_below="@+id/pendingActivation"
+        android:layout_centerHorizontal="true"/>
+        />
+
+    <TextView
+        android:id="@+id/status"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Status : Expired"
+        android:textColor="#FE122E"
+        android:textSize="16dp"
+        android:layout_below="@+id/date2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5dp"
+        />
+
+    <ImageView
+        android:id="@+id/phone_off"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/phone_off_vector"
+        android:layout_below="@+id/status"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="60dp"
+        />
+    <TextView
+        android:id="@+id/nexus_phone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nexus 5 Insurance"
+        android:layout_below="@+id/phone_off"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:layout_marginTop="10dp"
+        />
+    <Button
+        android:id="@+id/btnActivate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Activate Insurance Now"
+        android:layout_below="@+id/nexus_phone"
+        android:layout_marginTop="30dp"
+        android:layout_centerHorizontal="true"
+        android:background="#18F148"
+       android:paddingBottom="5dp"
+        android:paddingTop="5dp"
+        android:paddingLeft="30dp"
+        android:paddingRight="30dp"
+        />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:background="#C4C4C4"
+        android:layout_marginTop="450dp"
+        >
+
+        <TextView
+            android:id="@+id/device"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Device : "
+            android:textSize="17dp"
+            android:textStyle="bold"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="20dp"
+            />
+
+        <TextView
+            android:id="@+id/nexus5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="LGE Nexus 5"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="10dp"
+            android:textStyle="bold"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="20dp"/>
+
+        <TextView
+            android:id="@+id/insuracneTerm"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/device"
+            android:text="Insurance term : "
+            android:textSize="17dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginBottom="5dp"
+            android:textStyle="bold"
+            />
+
+        <TextView
+            android:id="@+id/term12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/nexus5"
+            android:text="12 Months"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="10dp"
+            android:layout_alignParentRight="true"
+            android:textStyle="bold"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="5dp"/>
+
+    </RelativeLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Coverage"
+        android:layout_marginTop="540dp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:textSize="17dp"
+        />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="565dp"
+        android:background="#C4C4C4">
+        <TextView
+            android:id="@+id/drops"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="All drops and breakage including cracked"
+            android:textColor="@color/black"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="10dp"
+            android:textSize="16dp"
+            android:textStyle="bold" />
+        <TextView
+            android:id="@+id/screen"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="screen"
+            android:layout_below="@+id/drops"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:layout_marginLeft="50dp"
+            android:textSize="16dp"
+            />
+
+    </RelativeLayout>
+
+</RelativeLayout>
