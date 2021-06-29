@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#551947"
+        >
+        <ImageView
+            android:id="@+id/backView"
+            android:layout_width="35dp"
+            android:layout_height="70dp"
+            android:src="@drawable/back"
+            />
+        <TextView
+            android:id="@+id/tvSeoul"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Fly to Seoul"
+            android:layout_toRightOf="@+id/backView"
+            android:textSize="25sp"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="40dp"
+            android:textColor="@color/white"
+            />
+
+        <TextView
+            android:id="@+id/person"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tvSeoul"
+            android:text="1 Adult, Economy"
+            android:textSize="22sp"
+            android:drawableLeft="@drawable/person"
+            android:drawablePadding="20dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="40dp"
+            android:layout_marginBottom="10dp"
+            android:textColor="@color/white"
+            />
+
+        <View
+            android:id="@+id/personLine"
+            android:layout_width="320dp"
+            android:layout_height="1dp"
+            android:layout_below="@+id/person"
+            android:background="@color/white"
+            android:layout_marginLeft="20dp"
+            />
+
+        <TextView
+            android:id="@+id/location"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/personLine"
+            android:text="Seoul, Korea"
+            android:textSize="22sp"
+            android:drawableLeft="@drawable/location"
+            android:drawablePadding="20dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:textColor="@color/white"
+            />
+
+        <View
+            android:id="@+id/locationLine"
+            android:layout_width="320dp"
+            android:layout_height="1dp"
+            android:layout_below="@+id/location"
+            android:background="@color/white"
+            android:layout_marginLeft="20dp"
+            />
+
+        <TextView
+            android:id="@+id/flight"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/locationLine"
+            android:text="Choose Destination"
+            android:textSize="22sp"
+            android:drawableLeft="@drawable/flight"
+            android:drawablePadding="20dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:textColor="@color/white"
+            />
+
+        <View
+            android:id="@+id/flightLine"
+            android:layout_width="320dp"
+            android:layout_height="1dp"
+            android:layout_below="@+id/flight"
+            android:background="@color/white"
+            android:layout_marginLeft="20dp"
+            />
+        <TextView
+            android:id="@+id/date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/flightLine"
+            android:text="Select Dates"
+            android:textSize="22sp"
+            android:drawableLeft="@drawable/date"
+            android:drawablePadding="20dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:textColor="@color/white"
+            />
+
+        <View
+            android:id="@+id/dateLine"
+            android:layout_width="320dp"
+            android:layout_height="1dp"
+            android:layout_below="@+id/date"
+            android:background="@color/white"
+            android:layout_marginLeft="20dp"
+            android:layout_marginBottom="90dp"
+            />
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="370dp"
+        android:background="#FFFFFF"
+        >
+    <TextView
+        android:id="@+id/valleyDestionation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Explore flights by destination"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="5dp"
+        android:textColor="#C2C2C2"
+        android:textSize="18dp"
+        />
+     <TextView
+         android:id="@+id/imageText1"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:text="Khumbu Valley, Nepal"
+         android:layout_below="@id/valleyDestionation"
+         android:drawableLeft="@drawable/valley"
+         android:drawablePadding="30dp"
+         android:paddingTop="20dp"
+         android:paddingLeft="20dp"
+         android:textColor="#000000"
+         />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageText1None"
+            android:text="NonStop - 5h 16m+"
+            android:layout_alignBottom="@+id/imageText1"
+            android:layout_alignEnd="@+id/imageText1"
+            android:layout_alignRight="@+id/imageText1"
+            android:layout_marginBottom="40dp"
+            android:layout_marginEnd="15dp"
+            android:layout_marginRight="15dp"
+            android:textColor="#C2C2C2"/>
+
+        <View
+            android:id="@+id/divideDestination"
+            android:layout_width="320dp"
+            android:layout_height="1dp"
+            android:layout_below="@+id/imageText1"
+            android:background="#C2C2C2"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="100dp"
+            />
+
+        <TextView
+            android:id="@+id/imageText2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Maldives, South Asia"
+            android:layout_below="@id/imageText1"
+            android:drawableLeft="@drawable/maldives"
+            android:drawablePadding="30dp"
+            android:paddingTop="20dp"
+            android:paddingLeft="20dp"
+            android:textColor="#000000"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageText2None"
+            android:text="NonStop - 8h 24m+"
+            android:layout_alignBottom="@+id/imageText2"
+            android:layout_alignEnd="@+id/imageText2"
+            android:layout_alignRight="@+id/imageText2"
+            android:layout_marginBottom="40dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginRight="15dp"
+            android:textColor="#C2C2C2"/>
+
+
+    </RelativeLayout>
+
+
+
+
+</RelativeLayout>
